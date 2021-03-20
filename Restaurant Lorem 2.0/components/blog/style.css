@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar ul, li{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.navbar a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #FF7F27;
+    border-bottom: 2px solid #FF7F27;
+    padding: 2px;
+}
+
+#burger-menu{
+    display: none;
+}
+
+/* Main */
+main{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-image: url(../../img/blog/blog-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-size: 14px;
+}
+main h2{
+    font-family: 'Akaya Telivigala', cursive;
+    color: #FF7F27;
+    font-size: 42px;
+    margin-top: 3%;
+}
+.latest-recipes, .new-recruits, .baking-tips, .eggs{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.first-blog, .second-blog, .third-blog, .fourth-blog{
+    background: white;
+    color: black;
+    width: 240px;
+    height: 77%;
+    text-align: center;
+    padding: 65px 1% 0px;
+    font-size: 24px;
+    margin-right: 25px;
+}
+.first-blog h4, .second-blog h4, .third-blog h4, .fourth-blog h4{
+    color: rgb(204, 204, 204);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.first-blog p, .second-blog p, .third-blog p, .fourth-blog p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.first-blog span, .second-blog span, .third-blog span, .fourth-blog span{
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+}
+
+.first-line, .second-line{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7F27;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 72px;
+}
+
+.btn:hover{
+    transition: 1s ease-in-out;
+    background: transparent;
+    border: 2px solid white;
+}

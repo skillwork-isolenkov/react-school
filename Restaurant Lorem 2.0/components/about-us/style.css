@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #E6E6E6;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar ul, li{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.navbar a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #FF7F27;
+    border-bottom: 2px solid #FF7F27;
+    padding: 2px;
+}
+
+#burger-menu{
+    display: none;
+}
+
+/* Main */
+main{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* About Us */
+.about-us{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.about-history h2{
+    font-family: 'Akaya Telivigala', cursive;
+    color: #FF7F27;
+    font-size: 42px;
+}
+.about-history p{
+    font-size: 13px;
+    width: 400px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.paragraphs p{
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #686868;
+    font-style: italic;
+}
+
+/* Images */
+.images{
+    margin-left: 50px;
+}
+.about-main{
+    border-radius: 50%;
+    border: 5px solid #FF7F27;
+}
+.about-inset{
+    border-radius: 50%;
+    border: 5px solid #FF7F27;
+    position: relative;
+    right: 111px;
+}
+
+/* Today's Special */
+.todays-special{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.todays-special h2{
+    font-family: 'Akaya Telivigala', cursive;
+    color: #FF7F27;
+    font-size: 42px;
+}
+.todays-special p{
+    font-size: 20px;
+    text-align: center;
+    width: 800px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.special-images{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.special-images img{
+    height: 435px;
+    width: 342px;
+    border: 5px solid #FF7F27;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

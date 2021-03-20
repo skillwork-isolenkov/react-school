@@ -1,0 +1,37 @@
+@media screen and (max-width:480px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-elements ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-elements li{
+        margin: 15px 0 25px 10px;
+    }
+
+    .header-elements a{
+        font-size: 25px;
+    }
+
+    .careers-div p {
+        width: 300px;
+    }
+
+    .first-paragraph, .run-paragraph, .last-paragraph{
+        width: 300px;
+       margin-left: 100px;
+    }
+
+    .current-vacancies, .h4-elements-div, .stagiaires-element{
+        margin-left: 180px;
+    }
+
+    main img{
+        margin-top: 20px;
+    }
+}

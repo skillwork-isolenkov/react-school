@@ -1,0 +1,48 @@
+@media only screen and (max-width: 900px) {
+    /* Navbar */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar ul{
+        display: none;
+        background-color: #202020;
+        position: absolute;
+    }
+    .navbar li{
+        padding: 5px 0px;
+    }
+    .navbar li:hover{
+        border-bottom: 2px solid #FF7F27;
+        color: #FF7F27;
+    }
+    .navbar a{
+        color: white;
+    }
+    .navbar i{
+        color: #FF7F27;
+    }
+    .navbar i:hover{
+        color: black;
+    }
+
+    #burger-menu{
+        display: flex;
+        font-size: 45px;
+    }
+
+    /* Main */
+    main h2{
+        font-size: 35px;
+    }
+    .head-elements h2{
+        font-size: 35px;
+    }
+
+    .food-images img{
+        height: 120px;
+        width: 100px;
+    }
+  }

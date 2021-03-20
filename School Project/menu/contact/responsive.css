@@ -1,0 +1,18 @@
+@media screen and (max-width:480px){
+    .header-nav li {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .container{
+        width: auto;
+    }
+
+    main button{
+        width: auto;
+    }
+
+    .contact-span{
+        font-size: 15px;
+    }
+}

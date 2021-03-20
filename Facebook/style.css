@@ -1,0 +1,241 @@
+main div{
+    margin-bottom: 12px;
+}
+
+
+body{
+    background-color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    color: whitesmoke;
+    background-color: #151519;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.facebook-head-div{
+    font-size: 24px;
+}
+
+.button-login{
+    background-color:#151519;
+    color: whitesmoke;
+    font-weight: 600;
+    height: 27px;
+    margin-top: 19px;
+    border: 3px solid whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s all ease-out;
+}
+
+.button-login:hover{
+    background-color: whitesmoke;
+    color:#151519;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.email-login-div, .password-login-div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+#email-login, #password-login{
+    height: 27px;
+    padding:0px;
+    margin: 0px;
+    border-radius: 0px;
+    background-color: whitesmoke;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+#errorSpan{
+    position: absolute;
+    top: 90px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 10%;
+}
+
+.forgotten-pass-div a{
+    text-decoration: none;
+    color: black;
+}
+
+.forgotten-pass-div a:hover{
+    text-decoration: underline;
+}
+
+.btn-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.password-login-div a {
+    position: absolute;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.fb-help-share{
+    margin-bottom: 50px;
+}
+
+.create-an-account{
+    font-size: 43px;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
+.its-free-element{
+    margin: 0;
+}
+
+.register-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 150px;
+}
+
+.fb-help-share{
+    white-space: pre-wrap;
+    color: #151519;
+}
+
+.register-names-div{
+    display: flex;
+    margin: 0;
+}
+
+#first-name{
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#surname{
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+}
+
+#email{
+    height: 40px;
+    width: 385px;
+    font-size: 20px;
+}
+
+#password{
+    height: 40px;
+    width: 385px;
+    font-size: 20px;
+}
+
+.birthday-div{
+    font-size: 20px;
+}
+
+#birthday{
+    font-size: 20px;
+}
+
+.aside-element a{
+    color: #151519;
+    text-decoration: none;
+}
+
+.aside-element a:hover{
+    text-decoration: underline;
+}
+
+.gender-div{
+    display: flex;
+    font-size: 23px;
+}
+
+.terms-div{
+    font-size: 12px;
+    margin-right: 70px;
+}
+
+.terms-div a{
+    text-decoration: none;
+    color: #151519;
+}
+
+.terms-div a:hover{
+    text-decoration: underline;
+}
+
+.terms-div div{
+    margin: 0;
+}
+
+.birthday-gender-aside-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.sing-up-button{
+    height: 50px;
+    width: 210px;
+    font-size: 23px;
+    background-color:#151519;
+    color: whitesmoke;
+    font-weight: 600;
+    border: 3px solid whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.5s all ease-out;
+}
+
+.sing-up-button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: whitesmoke;
+    border: 3px solid #151519;
+    color: #151519;
+}
+
+#second-error-span{
+    position: absolute;
+    bottom: 30%;
+    right: 23.5%;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.create-page a{
+    color: #151519;
+    text-decoration: none;
+}
+
+.create-page a:hover{
+    text-decoration: underline;
+}

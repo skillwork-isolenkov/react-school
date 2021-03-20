@@ -1,0 +1,71 @@
+@media only screen and (max-width: 900px) {
+    /* Navbar */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar ul{
+        display: none;
+        background-color: #202020;
+        position: absolute;
+    }
+    .navbar li{
+        padding: 5px 0px;
+    }
+    .navbar li:hover{
+        border-bottom: 2px solid #FF7F27;
+        color: #FF7F27;
+    }
+    .navbar a{
+        color: white;
+    }
+    .navbar i{
+        color: #FF7F27;
+    }
+    .navbar i:hover{
+        color: black;
+    }
+
+    #burger-menu{
+        display: flex;
+        font-size: 45px;
+    }
+
+    /* Main */
+    main{
+        background-image: none;
+        background-color: black;
+    }
+    main h2{
+        font-size: 35px;
+    }
+    main img{
+        height: 120px;
+        width: 153px;
+    }
+
+    .first-line, .second-line{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 20px;
+    }
+
+    .latest-recipes, .new-recruits, .baking-tips, .eggs{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .first-blog, .second-blog, .third-blog, .fourth-blog {
+        width: 150px;
+        padding: 40px 1% 0px;
+    }
+    .first-blog h4, .second-blog h4, .third-blog h4, .fourth-blog h4{
+        font-size: 12px;
+    }
+    .first-blog p, .second-blog p, .third-blog p, .fourth-blog p{
+        font-size: 17px;
+    }
+  }

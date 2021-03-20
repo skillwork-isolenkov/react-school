@@ -1,0 +1,85 @@
+@media only screen and (max-width: 900px) {
+    /* Navbar */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar ul{
+        display: none;
+        background-color: #202020;
+        position: absolute;
+    }
+    .navbar li{
+        padding: 5px 0px;
+    }
+    .navbar li:hover{
+        border-bottom: 2px solid #FF7F27;
+        color: #FF7F27;
+    }
+    .navbar a{
+        color: white;
+    }
+    .navbar i{
+        color: #FF7F27;
+    }
+    .navbar i:hover{
+        color: black;
+    }
+
+    #burger-menu{
+        display: flex;
+        font-size: 45px;
+    }
+
+    /* Main */
+    main{
+        background-attachment: inherit;
+    }
+
+    .elements h2{
+        font-size: 35px;
+    }
+    .elements p {
+        font-size: 15px;
+    }
+
+    .email-bar input {
+        width: 75%;
+        margin-top: 145px;
+    }
+    .email-bar a{
+        left: 205px;
+    }
+
+    /* Footer */
+    footer{
+        height: inherit;
+    }
+    footer img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .about{
+        align-items:flex-start;
+        margin-left: 15px;
+    }
+    .about h3 {
+        margin-bottom: 15px;
+    }
+
+    .new-menu{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .contact{
+        font-size: 17px;
+    }
+    .contact, .hours {
+        align-items: flex-start;
+        margin-left: 15px;
+    }
+  }

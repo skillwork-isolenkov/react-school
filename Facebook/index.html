@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script type="text/javascript" src="./javascript/script.js"></script>
+    <title>Facebook</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="facebook-head-div">
+            <h1 class="facebook-head">facebook</h1>
+        </div>
+
+        <div class="login-container">
+            <div class="email-login-div">
+                <label for="email-login">Email</label>
+                <input id="email-login" type="text" name="EmailLogIn" placeholder="your@email.com">
+                <span id="errorSpan"></span>
+            </div>
+
+            <div class="password-login-div">
+                <label for="password-login">Password</label>
+                <input id="password-login" type="password" name="PasswordLogIn">
+                <div class="forgotten-pass-div">
+                    <a href="/" style="color: silver;">Forgotten Password</a>
+                </div>
+            </div>
+            <button type="submit" class="button-login">Log In</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="logo-div">
+            <h2 class="fb-help-share">Facebook helps you connect and share with the
+                people in your life.</h2>
+            <img src="./img/facebook.jpg" alt="Facebook">
+        </div>
+
+        <label class="register-div">
+            <div class="text-container">
+                <h1 class="create-an-account">Create an account</h1>
+                <h3 class="its-free-element">It's free and always will be.</h3>
+            </div>
+
+            <div class="register-names-div">
+                <div class="first-name-div">
+                    <label for="first-name"></label>
+                    <input id="first-name" type="text" name="FirstName" placeholder="First name">
+                </div>
+
+                <div class="surname-div">
+                    <label for="surname"></label>
+                    <input id="surname" type="text" name="Surname" placeholder="Surname">
+                </div>
+            </div>
+
+            <div class="email-div">
+                <label for="email"></label>
+                <input id="email" type="text" name="Email" placeholder="Email adress">
+            </div>
+
+            <div class="password-div">
+                <label for="password"></label>
+                <input id="password" type="password" name="Password" placeholder="New password">
+            </div>
+
+            <div class="birthday-gender-aside-div">
+                <div class="birthday-div">
+                    <label for="birthday">Birthday</label>
+                    <input id="birthday" type="date" name="Birthday">
+                </div>
+
+                <div class="aside-element">
+                    <a href="/">Why do i need to provide my
+                        date of birth?</a>
+                </div>
+
+                <div class="gender-div">
+                    <div class="female">
+                        <input id="gender-female" type="radio" name="Gender">
+                        <label for="gender-female">Female</label>
+                    </div>
+                    <div class="male">
+                        <input id="gender-male" type="radio" name="Gender">
+                        <label for="gender-male">Male</label>
+                    </div>
+                </div>
+
+                <div class="terms-div">
+                    <div> By clicking Sing Up, you agree to our <a href="/">Terms, Data Policy</a> and</div>
+                    <div><a href="/">Cookie Policy</a>.</div>
+                    <div>You may recieve SMS</div>
+                    <div>notification from us and can opt at any time.</div>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit" class="sing-up-button">Sign Up</button>
+
+                    <span id="second-error-span"></span>
+
+                    <h4 class="create-page"> <a href="/">Create a Page</a> for celebrity, band or business.</h4>
+                </div>
+            </div>
+
+        </label>
+    </main>
+</body>
+
+</html>

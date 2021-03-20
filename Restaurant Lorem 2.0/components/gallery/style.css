@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #E6E6E6;
+}
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar ul, li{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.navbar a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #FF7F27;
+    border-bottom: 2px solid #FF7F27;
+    padding: 2px;
+}
+
+#burger-menu{
+    display: none;
+}
+
+/* Main */
+main h2{
+    font-family: 'Akaya Telivigala', cursive;
+    color: #FF7F27;
+    font-size: 42px;
+}
+main p{
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.head-elements{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 3%;
+}
+
+/* Images */
+.food-images{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.first-part-img, .second-part-img, .third-part-img, .fourth-part-img{
+    margin-bottom: 15px;
+}
+
+.photo-1, .photo-7{
+    height: 350px;
+    width: 730px;
+    border: 5px solid #FF7F27;
+}
+.photo-2, .photo-3, .photo-4, .photo-5, .photo-6, .photo-8, .photo-9, .photo-10{
+    height: 350px;
+    width: 360px;
+    border: 5px solid #FF7F27;
+}

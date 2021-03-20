@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#101F30;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lorem-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.header-elements ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#101F30;
+    padding: 15px;
+}
+
+.header-elements li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-elements a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-elements a:hover{
+    text-decoration: underline;
+}
+
+.dropdown-elements{
+    display: none;
+    position: absolute;
+    background-color: #101F30;
+    min-width: 50px;
+}
+
+.dropdown-elements a{
+    color: white;
+    margin-top: 10px;
+    padding: 2px 13px;
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-elements {
+    display: block;
+  }
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+.first-div{
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+.first-div h4, .second-div h4, .third-div h4{
+    margin-bottom: 10px;
+}
+
+.first-div a, .first-div-number{
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.second-div li{
+    display: block;
+}
+
+.second-div a{
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.third-div p{
+    margin-bottom: 30px;
+}
+
+.email-input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.submit-btn{
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: #262630;
+}
+
+.submit-btn:hover{
+    transition: 1s ease-in-out;
+    background:#262630;
+    color: whitesmoke;
+}
+
+.email-btn-div{
+    display: flex;
+    width: 250px;
+    align-items: center;
+}
+
+.email-send{
+    color: green;
+}

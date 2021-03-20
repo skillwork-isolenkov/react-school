@@ -1,0 +1,50 @@
+@media only screen and (max-width: 900px) {
+    /* Navbar */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar ul{
+        display: none;
+        background-color: #202020;
+        position: absolute;
+    }
+    .navbar li{
+        padding: 5px 0px;
+    }
+    .navbar li:hover{
+        border-bottom: 2px solid #FF7F27;
+        color: #FF7F27;
+    }
+    .navbar i{
+        color: white;
+    }
+    .navbar i:hover{
+        color: #FF7F27;
+    }
+
+    #burger-menu{
+        display: flex;
+        font-size: 45px;
+    }
+
+    /* Main */
+    main{
+        text-align: center;
+    }
+
+    main h2{
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    main p{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .btn{
+        padding: 15px;
+        font-size: 15px;
+    }
+  }

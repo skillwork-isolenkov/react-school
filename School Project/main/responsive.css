@@ -1,0 +1,31 @@
+@media screen and (max-width:480px){ 
+    .header-nav li {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .first-main-div img{
+        height: 200px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .paragraphs-div h2{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+
+    .paragraphs-div p{
+        font-size: 18px;
+        width: auto;
+        margin-left: 20px;
+    }
+    
+    .left-div{
+        margin-left: 10px;
+    }
+
+    .right-div{
+        margin: 0;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width:480px){
+    .header-nav li {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    main img{
+        height: 200px;
+        width: 300px;
+        margin: 30px 0 0 90px;
+    }
+}

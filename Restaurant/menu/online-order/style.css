@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#101F30;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 8px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lorem-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.header-elements ul{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#101F30;
+  padding: 15px;
+}
+
+.header-elements li{
+  display: inline;
+  margin-right: 20px;
+}
+
+.header-elements a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header-elements a:hover{
+  text-decoration: underline;
+}
+
+.dropdown-elements{
+  display: none;
+  position: absolute;
+  background-color: #101F30;
+  min-width: 50px;
+}
+
+.dropdown-elements a{
+  color: white;
+  margin-top: 10px;
+  padding: 2px 13px;
+  font-size: 17px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-elements {
+  display: block;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  
+  .btn:hover {
+    background-color:#262630;
+    color: whitesmoke;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+
+  .pay-span{
+    color: green;
+  }

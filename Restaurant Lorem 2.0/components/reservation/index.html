@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/lipsum-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Reservation - Restaurant Lorem 2.0</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <img src="../../img/lipsum-reservation.png" alt="lipsum-logo1">
+            <nav>
+                <i id="burger-menu" class="fa fa-bars"></i>
+                <ul>
+                    <li>
+                        <a class="home-link" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="about-link" href="#">About us</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" href="#">Menu</a>
+                    </li>
+                    <li>
+                        <a class="team-link" href="#">Team</a>
+                    </li>
+                    <li>
+                        <a class="gallery-link" href="#">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="blog-link" href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="reservation-link" href="#">Reservation</a>
+                    </li>
+                    <li>
+                        <a class="contact-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Reservations</h2>
+        <h4>Booking Form</h4>
+        <p>PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
+        <form class="contact-form" action="#">
+            <div class="name-email">
+                <input class="input-name" type="text" placeholder="Name" required data-error="FirstName is required.">
+                <input class="input-email" type="email" placeholder="E-Mail ID" required
+                    data-error="Email is required.">
+            </div>
+            <div class="number-persons">
+                <input class="input-number" type="number" placeholder="Contact No." required
+                    data-error="Contact Number is required.">
+                <select id="persons" name="persons">
+                    <option value="" disabled selected>No. of Persons</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="date-time">
+                <input class="input-date" type="date" required data-error="Date is required.">
+                <input class="input-time" type="time" required data-error="Time is required.">
+            </div>
+            <button class="button">Book my table</button>
+        </form>
+        <span class="message"></span>
+    </main>
+</body>
+
+</html>

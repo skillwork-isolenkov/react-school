@@ -1,0 +1,12 @@
+@media screen and (max-width:480px){
+    header ul{
+        margin-left: 60px;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+      }
+      .col-25 {
+        margin-bottom: 20px;
+      }
+}

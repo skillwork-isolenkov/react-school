@@ -1,0 +1,21 @@
+@media screen and (max-width:480px){
+    .header-nav li {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .main-div h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-div p{
+        width: auto;
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    main img{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5E492E;
+    color: white;
+}
+
+header h2{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header h2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-nav li{
+    display: flex;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-right: 2px solid white;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-nav a:hover{
+    color: #a35f06;
+}
+
+.first-main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCC7AB;
+    color: white;
+}
+
+.first-main-div img{
+    height: 300px;
+    width: 500px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-right: 40px;
+    border: 7px solid silver;
+    outline: 3px solid black;
+}
+
+.paragraphs-div h2{
+    font-size: 40px;
+}
+
+.paragraphs-div p{
+    font-size: 27px;
+    width: 650px;
+    margin-top: 40px;
+}
+
+.second-main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left-div{
+    width: 700px;
+}
+
+.left-div h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: cursive;;
+}
+
+.left-div p {
+    margin-bottom: 30px;
+    color: #6d6e70c7;
+    font-weight: bold;
+}
+
+.right-div{
+    width: 500px;
+    margin-left: 200px;
+}
+
+.right-div img{
+    height: 90px;
+    width: 90px;
+    border: 3px solid white;
+    outline: 1px solid #DFE0DF;
+    margin-right: 20px;
+}
+
+.right-div h3{
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid #DFE0DF;
+    background-color: #5E492E;
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.latest-school-news-div, .latest-teacher-news-div, .latest-result-news-div{
+    display: flex;
+    padding: 35px;
+    border: 1px solid #DFE0DF;
+    background-color: #EFF0EF;
+}
+
+.latest-school-news-div p, .latest-teacher-news-div p, .latest-result-news-div p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #6d6e70c7;
+}
+
+.latest-teacher-news-div{
+    background-color: #DFE0DF;
+}
+
+.latest-school-news-div h4, .latest-teacher-news-div h4, .latest-result-news-div h4{
+    color: #6d6e70c7;
+    margin-bottom: 5px;
+}
+
+.latest-school-news-div span, .latest-teacher-news-div span, .latest-result-news-div span{
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #5E492E;
+}
+
+.second-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.services, .about, .cool-links, .contact, .partners{
+    color: white;
+    font-size: 25px;
+}
+
+.second-nav li{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.second-nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+
+

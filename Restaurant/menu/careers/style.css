@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #101F30;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lorem-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.header-elements ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#101F30;
+    padding: 15px;
+}
+
+.header-elements li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-elements a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.header-elements a:hover{
+    text-decoration: underline;
+}
+
+.dropdown-elements{
+    display: none;
+    position: absolute;
+    background-color: #101F30;
+    min-width: 50px;
+}
+
+.dropdown-elements a{
+    color: white;
+    margin-top: 10px;
+    padding: 2px 13px;
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-elements {
+    display: block;
+  }
+
+main img{
+    width: 310px;
+    height: 330px;
+    margin-bottom: 20px;
+}
+
+.careers-div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.careers-div h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.careers-div p{
+    font-size: 10px;
+    width: 520px;
+}
+
+.big-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.first-paragraph{
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.current-vacancies{
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+
+.h4-elements-div, .run-paragraph, .stagiaires-element{
+    margin-bottom: 25px;
+}
+
+.last-div{
+    width: 500px;
+}
+
+.last-paragraph{
+    width: 300px;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #E6E6E6;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar ul, li{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.navbar a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #FF7F27;
+    border-bottom: 2px solid #FF7F27;
+    padding: 2px;
+}
+
+#burger-menu{
+    display: none;
+}
+
+/* Team */
+main img{
+    width: 310px;
+    height: 240px;
+    border: 5px solid #FF7F27;
+}
+
+.team-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-team{
+    font-family: 'Akaya Telivigala', cursive;
+    color: #FF7F27;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.tom-div, .ursula-div, .second-tom-div, .jack-div, .jonathan-div, .jenny-div, .gary-div, .danny-div, .kitchen-team-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tom-sec-div, .ursula-sec-div, .second-tom-sec-div, .jack-sec-div, .jonathan-sec-div, .jenny-sec-div, .gary-sec-div, .danny-sec-div, .kitchen-sec-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tom-div p, .second-tom-div p, .jonathan-div p, .gary-div p, .kitchen-team-div p{
+    width: 350px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.ursula-div p, .jack-div p, .jenny-div p, .danny-div p{
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer h3{
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+}
+
+footer button{
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7F27;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+footer button:hover{
+    transition: 1s ease-in-out;
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+}

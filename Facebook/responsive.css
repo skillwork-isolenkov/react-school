@@ -1,0 +1,115 @@
+@media screen and (max-width:480px){
+    .login-container{
+        display: flex;
+        flex-direction: column;
+    }
+    main div{
+        margin: 0;
+    }
+
+    .register-div{
+        margin: 0;
+        align-items: center;
+    }
+
+    .register-div div{
+        margin-bottom: 10px;
+    }
+
+    .fb-help-share{
+        font-size: 15px;
+        padding-left: 9%;
+        white-space: normal;
+    }
+
+    img{
+        width: 375px;
+        height: 140px;
+    }
+
+    .password-login-div a{
+        padding-top: 5px;
+    }
+
+    .button-login{
+        height: 45px;
+        width: 100px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    #errorSpan{
+        position: absolute;
+        width: 50%;
+    }
+
+    .create-an-account{
+        font-size: 25px;
+        margin: 0;
+    }
+
+    #first-name{
+        height: 30px;
+        width: 110px;
+        font-size: 19px;
+        margin-right: 12px;
+    }
+
+    #surname{
+        height: 30px;
+        width: 110px;
+        font-size: 19px;
+    }
+
+    #email{
+        height: 30px;
+        width: 240px;
+        font-size: 19px;
+    }
+
+    #password{
+        height: 30px;
+        width: 240px;
+        font-size: 19px;
+    }
+
+    .birthday-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aside-element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gender-div{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terms-div{
+        white-space: normal;
+        margin: 0;
+    }
+    
+    .terms-div div{
+        margin: 0;
+    }
+
+    .sing-up-button{
+        margin-bottom: 0;
+        margin-left: 75px;
+    }
+
+    #second-error-span{
+        position: absolute;
+        top: 140%;
+        left: 12%;
+        width: 80%;
+    }
+}

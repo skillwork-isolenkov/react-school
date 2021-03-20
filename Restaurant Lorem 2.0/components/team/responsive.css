@@ -1,0 +1,72 @@
+@media only screen and (max-width: 900px) {
+    /* Navbar */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar ul{
+        display: none;
+        background-color: #202020;
+        position: absolute;
+    }
+    .navbar li{
+        padding: 5px 0px;
+    }
+    .navbar li:hover{
+        border-bottom: 2px solid #FF7F27;
+        color: #FF7F27;
+    }
+    .navbar a{
+        color: white;
+    }
+    .navbar i{
+        color: #FF7F27;
+    }
+    .navbar i:hover{
+        color: black;
+    }
+
+    #burger-menu{
+        display: flex;
+        font-size: 45px;
+    }
+
+    /* Main */
+    .our-team{
+        font-size: 35px;
+    }
+
+    .team-div img{
+        height: 210px;
+        width: 300px;
+    }
+
+    .about-us-div{
+        margin-top: 30px;
+    }
+    
+    .about-us-div p, .jack-div p{
+        width: 300px;
+        font-size: 13px;
+    }
+    
+    .team-div img, .jack-div p{
+        margin-bottom: 50px;
+        margin-left: 40px;
+        font-size: 13px;
+    }
+    
+    .tom-div p, .second-tom-div p, .jonathan-div p, .gary-div p{
+        margin-left: 50px;
+        margin-bottom: 20px;
+        width: 300px;
+        font-size: 13px;
+    }
+    
+    .ursula-div p, .jenny-div p, .danny-div p{
+        margin-bottom: 50px;
+        font-size: 13px;
+    }
+  }

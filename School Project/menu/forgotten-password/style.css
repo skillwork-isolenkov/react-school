@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5E492E;
+    color: white;
+}
+
+header h2{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header h2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-nav li{
+    display: flex;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-right: 2px solid white;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-nav a:hover{
+    color: #a35f06;
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    font-size: 15px;
+}
+
+.container input{
+    font-size: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+main .reset-password{
+    color: white;
+    background-color: #5E492E;
+    width: 40%;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+main .reset-password:hover{
+    background-color: #a35f06;
+}
+
+.register-span{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.signin{
+    font-weight: bold;
+}
+
+.signin a{
+    text-decoration: none;
+    color: #a35f06;
+}
+
+footer{
+    background-color: #5E492E;
+}
+
+.second-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 149px;
+}
+
+.services, .about, .cool-links, .contact, .partners{
+    color: white;
+    font-size: 25px;
+}
+
+.second-nav li{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.second-nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}

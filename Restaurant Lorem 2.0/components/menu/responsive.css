@@ -1,0 +1,79 @@
+@media only screen and (max-width: 900px) {
+    /* Navbar */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar ul{
+        display: none;
+        background-color: #202020;
+        position: absolute;
+    }
+    .navbar li{
+        padding: 5px 0px;
+    }
+    .navbar li:hover{
+        border-bottom: 2px solid #FF7F27;
+        color: #FF7F27;
+    }
+    .navbar a{
+        color: white;
+    }
+    .navbar i{
+        color: #FF7F27;
+    }
+    .navbar i:hover{
+        color: black;
+    }
+
+    #burger-menu{
+        display: flex;
+        font-size: 45px;
+    }
+
+    /* Main */
+    main h2{
+        font-size: 35px;
+    }
+    .main-paragraph{
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .slider-nav ul{
+        margin-left: 65px;
+    }
+    .slider-nav li{
+        margin: 0;
+    }
+    .slider-nav a{
+        font-size: 20px;
+    }
+
+    .first-row, .second-row{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .slider-starters h3, .slider-main h3, .slider-deserts h3, .slider-drinks h3{
+        font-size: 17px;
+    }
+    .slider-starters p, .slider-main p, .slider-deserts p, .slider-drinks p{
+        width: 150px;
+        font-size: 12px;
+    }
+    .slider-starters img, .slider-main img, .slider-deserts img, .slider-drinks img {
+        height: 75px;
+        width: 75px;
+    }
+    .slider-starters span, .slider-main span, .slider-deserts span, .slider-drinks span{
+        width: 65px;
+        font-size: 20px;
+    }
+    .first-dish, .second-dish, .third-dish, .fourth-dish{
+        margin-bottom: 20px;
+    }
+  }
