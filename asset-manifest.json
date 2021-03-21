@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-school/static/css/main.36a01f21.chunk.css",
+    "main.js": "/react-school/static/js/main.800eb4b8.chunk.js",
+    "main.js.map": "/react-school/static/js/main.800eb4b8.chunk.js.map",
+    "runtime-main.js": "/react-school/static/js/runtime-main.32fbeec8.js",
+    "runtime-main.js.map": "/react-school/static/js/runtime-main.32fbeec8.js.map",
+    "static/js/2.7a73581b.chunk.js": "/react-school/static/js/2.7a73581b.chunk.js",
+    "static/js/2.7a73581b.chunk.js.map": "/react-school/static/js/2.7a73581b.chunk.js.map",
+    "index.html": "/react-school/index.html",
+    "static/css/main.36a01f21.chunk.css.map": "/react-school/static/css/main.36a01f21.chunk.css.map",
+    "static/js/2.7a73581b.chunk.js.LICENSE.txt": "/react-school/static/js/2.7a73581b.chunk.js.LICENSE.txt",
+    "static/media/1.8f168702.jpg": "/react-school/static/media/1.8f168702.jpg",
+    "static/media/2.a9479397.jpg": "/react-school/static/media/2.a9479397.jpg",
+    "static/media/3.ad66f9dd.jpg": "/react-school/static/media/3.ad66f9dd.jpg",
+    "static/media/4.5f53d1c3.jpg": "/react-school/static/media/4.5f53d1c3.jpg",
+    "static/media/5.e1454a9c.jpg": "/react-school/static/media/5.e1454a9c.jpg",
+    "static/media/6.e8909872.jpg": "/react-school/static/media/6.e8909872.jpg",
+    "static/media/latest result news.f41b29bf.jpg": "/react-school/static/media/latest result news.f41b29bf.jpg",
+    "static/media/latest school news.d28af3c8.jpg": "/react-school/static/media/latest school news.d28af3c8.jpg",
+    "static/media/latest teacher news.6d4ac03b.jpg": "/react-school/static/media/latest teacher news.6d4ac03b.jpg",
+    "static/media/school.a714937d.jpg": "/react-school/static/media/school.a714937d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32fbeec8.js",
+    "static/js/2.7a73581b.chunk.js",
+    "static/css/main.36a01f21.chunk.css",
+    "static/js/main.800eb4b8.chunk.js"
+  ]
+}
